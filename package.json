@@ -1,0 +1,40 @@
+{
+  "name": "standalone-dots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/standalone-dots.cjs.js",
+  "module": "build/standalone-dots.esm.js",
+  "browser": "build/standalone-dots.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulmartian/standalone-dots.git"
+  },
+  "keywords": [
+    "carousel",
+    "dots",
+    "bullets",
+    "standalone"
+  ],
+  "author": "Martin Mach ≤soulmartian_@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soulmartian/standalone-dots/issues"
+  },
+  "homepage": "https://github.com/soulmartian/standalone-dots#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup": "^1.31.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  }
+}
